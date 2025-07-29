@@ -10,9 +10,9 @@ employees given key features. This can be useful for:
 
 📂 Project Structure
 
+
 📁 Employee-Salary-Prediction/
 salary-prediction-app/
-
 ├── notebooks/
 │   └── Employee Salary Prediction.ipynb
 ├── models/
@@ -37,10 +37,13 @@ This project leverages a suite of powerful Python libraries for data science:
 *Model Saving: Joblib for serializing the final model pipeline.
 
 📊 The Dataset
+
 The project uses the "Adult Census Income" dataset, which contains demographic and employment-related information for a collection of individuals. 
 The target variable is income, categorized into two classes.
 
+
 🤖 Machine Learning Workflow
+
 The project follows a systematic workflow to ensure a high-quality, reproducible model.
 
 🧹 Data Cleaning: Loaded the dataset, handled missing values (?), filtered outliers, and removed redundant features.
@@ -55,6 +58,8 @@ The project follows a systematic workflow to ensure a high-quality, reproducible
 
 ✅ Evaluation & Saving: Assessed the final model on a held-out test set and saved the entire trained pipeline using joblib for future use.
 
+
+
 🏆 Model Performance
 The final tuned model achieved strong and balanced performance on the test data.
 
@@ -64,12 +69,16 @@ The final tuned model achieved strong and balanced performance on the test data.
 
 The classification report shows that the model is both precise in its predictions for the majority class and effective at identifying individuals in the minority class, thanks to the SMOTE balancing.
 
+
+
 💡 Key Takeaways
 The Importance of Resampling: Using SMOTE was crucial. It significantly improved the model's ability to correctly predict individuals earning >$50K (recall of 79%), which a naive model would have struggled with.
 
 Insightful Features: EDA clearly showed that features like occupation, education, and age are powerful predictors of income.
 
 Power of Pipelines: Automating the workflow with scikit-learn pipelines ensures consistency, prevents data leakage, and makes the model easily deployable.
+
+
 
 🔮 Future Improvements
 While the current model is robust, there are several avenues for future work:
