@@ -19,7 +19,6 @@ employees given key features. This can be useful for:
  
  requirements.txt                 - dependies
  
- README.md
 
 
 
