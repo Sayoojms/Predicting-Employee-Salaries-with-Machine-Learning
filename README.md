@@ -11,13 +11,13 @@ employees given key features. This can be useful for:
 
 📂 Project Structure
  
- Employee Salary Prediction.ipynb - jupyter notebooks
+ Employee Salary Prediction.ipynb - Jupyter notebook
  
  tuned_salary_model_pipeline.pkl  - Models
  
- income_prediction_app.py         - streamkit application file
+ income_prediction_app.py         - Streamkit application file
  
- requirements.txt                 - dependies
+ Adult.csv                        - Dataset
  
 
 
